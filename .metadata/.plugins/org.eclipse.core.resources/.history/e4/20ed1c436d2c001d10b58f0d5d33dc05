@@ -1,0 +1,9 @@
+public class InheritanceA {
+    float pi=(float)3.14,area;
+    int radius;
+public static circleArea(int r){
+    radius=r;
+    area=pi*radius*radius;
+    System.out.println("Area of Circle is:"+area);
+}
+}

@@ -1,0 +1,13 @@
+//import java.math;
+public class InheritanceC {
+    float val,s,side1,side2,side3,area;
+public void triangleArea(float s1, float s2, float s3 ){
+    side1=s1;
+    side2=s2;
+    side3=s3;
+    s=(side1+side2+side3)/2;
+    val=(s*(s-side1)*(s-side2)*(s-side3));
+    area=(float) Math.sqrt(val);
+System.out.println("Area of Triangle is:"+area);
+}
+}

@@ -1,0 +1,9 @@
+public class InheritanceB {
+    float length,breadth,area;
+    public void rectangleArea(float l, float b){
+        length=l;
+        breadth=b;
+        area=length*breadth;
+        System.out.println("Area of Reactangle is:"+area);
+    }
+}
