@@ -10,6 +10,6 @@ public class InheritedAreas {
     areaB=objC.rectangleArea(80,80);
     System.out.println("Area of Rectangle is:"+areaB);
     areaC=objC.triangleArea(16,20,20);
-    System.out.println("Area of Triangle of sides "+objC.side1+", "+objC.side2+", "+objC.side3+" is:"+areaC);
+    System.out.println("Area of Triangle of sides s1="+objC.side1+", s2="+objC.side2+", s3="+objC.side3+" is:"+areaC);
 }
 }
